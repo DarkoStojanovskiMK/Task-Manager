@@ -1,6 +1,5 @@
 
-
-module.exports = (state, action)=>{
+const AuthReducer = (state, action)=>{
     switch(action.type){
         case 'REGISTER_SUCCESS':
         case 'LOGIN_SUCCESS':
@@ -42,3 +41,4 @@ module.exports = (state, action)=>{
 
     }
 }
+export default  AuthReducer;
